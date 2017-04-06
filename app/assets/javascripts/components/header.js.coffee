@@ -5,6 +5,9 @@ class @Header extends React.Component
   #     home: @Home
   # @defaultProps: ->
   #   home: 'hell no'
+  handleLogin: (e) ->
+    window.location = 'logins'
+  document.title = 'Document Title HERE'
   render: ->
     React.DOM.div
       className:'mdl-layout mdl-js-layout mdl-layout--fixed-header'
@@ -21,20 +24,9 @@ class @Header extends React.Component
             className:'mdl-navigation mdl-layout--large-screen-only'
             React.DOM.a
               className:'mdl-navigation__link'
-              href:''
-              'Link'
-            React.DOM.a
-              className:'mdl-navigation__link'
-              href:''
-              'Link'
-            React.DOM.a
-              className:'mdl-navigation__link'
-              href:''
-              'Link'
-            React.DOM.a
-              className:'mdl-navigation__link'
-              href:''
-              'Link'
+              onClick: @handleLogin
+              href: '' #Set a blank href so cursor changes when hovering
+              'Login'
       React.DOM.div
         className:'mdl-layout__drawer'
         React.DOM.span
