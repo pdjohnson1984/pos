@@ -7,28 +7,28 @@ class @Header extends React.Component
   #   home: 'hell no'
   handleLogin: (e) ->
     window.location = 'logins'
-  document.title = 'Document Title HERE'
+  document.title = 'CannaUnity'
   render: ->
     React.DOM.div
       className:'mdl-layout mdl-js-layout mdl-layout--fixed-header'
       React.DOM.header
-        className:'mdl-layout__header'
+        className:'mdl-layout__header mdl-color--white'
         React.DOM.div
           className:'mdl-layout__header-row'
           React.DOM.span
-            className:'mdl-layout-title'
-            'Title'
+            className:'mdl-layout-title mdl-color-text--green'
+            'CannaUnity'
           React.DOM.div
             className:'mdl-layout-spacer'
           React.DOM.nav
             className:'mdl-navigation mdl-layout--large-screen-only'
             React.DOM.a
-              className:'mdl-navigation__link'
+              className:'mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--green'
               onClick: @handleLogin
               href: '' #Set a blank href so cursor changes when hovering
-              'Login'
+              'Sign In'
       React.DOM.div
-        className:'mdl-layout__drawer'
+        className:'mdl-layout__drawer mdl-color--green-500'
         React.DOM.span
           className:'mdl-layout-title'
           'Title'
