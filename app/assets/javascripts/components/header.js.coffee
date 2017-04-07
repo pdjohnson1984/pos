@@ -7,7 +7,7 @@ class @Header extends React.Component
   #   home: 'hell no'
   handleLogin: (e) ->
     window.location = 'logins'
-  document.title = 'CannaUnity'
+  document.title = 'CannaUnify'
   render: ->
     React.DOM.div
       className:'mdl-layout mdl-js-layout mdl-layout--fixed-header'
@@ -17,7 +17,7 @@ class @Header extends React.Component
           className:'mdl-layout__header-row'
           React.DOM.span
             className:'mdl-layout-title mdl-color-text--green'
-            'CannaUnity'
+            'CannaUnify'
           React.DOM.div
             className:'mdl-layout-spacer'
           React.DOM.nav
@@ -30,24 +30,24 @@ class @Header extends React.Component
       React.DOM.div
         className:'mdl-layout__drawer mdl-color--green-500'
         React.DOM.span
-          className:'mdl-layout-title'
+          className:'mdl-layout-title mdl-color-text--white'
           'Title'
         React.DOM.nav
           className:'mdl-navigation'
           React.DOM.a
-            className:'mdl-navigation__link'
+            className:'mdl-navigation__link mdl-color-text--white'
             href:''
             'Link'
           React.DOM.a
-            className:'mdl-navigation__link'
+            className:'mdl-navigation__link mdl-color-text--white'
             href:''
             'Link'
           React.DOM.a
-            className:'mdl-navigation__link'
+            className:'mdl-navigation__link mdl-color-text--white'
             href:''
             'Link'
           React.DOM.a
-            className:'mdl-navigation__link'
+            className:'mdl-navigation__link mdl-color-text--white'
             href:''
             'Link'
       React.DOM.main
