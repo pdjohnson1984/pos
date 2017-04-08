@@ -6,7 +6,7 @@ class @Header extends React.Component
   # @defaultProps: ->
   #   home: 'hell no'
   handleLogin: (e) ->
-    window.location = 'logins'
+    window.location = 'users/sign_in'
   document.title = 'CannaUnify'
   render: ->
     React.DOM.div
@@ -22,11 +22,13 @@ class @Header extends React.Component
             className:'mdl-layout-spacer'
           React.DOM.nav
             className:'mdl-navigation mdl-layout--large-screen-only'
-            React.DOM.a
-              className:'mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--green'
+            React.DOM.button
+              className:'mdl-chip mdl-color--green-400'
               onClick: @handleLogin
-              href: '' #Set a blank href so cursor changes when hovering
-              'Sign In'
+              # href: '' #Set a blank href so cursor changes when hovering
+              React.DOM.span
+                className:'mdl-chip__text mdl-color-text--white'
+                'Sign In'
       React.DOM.div
         className:'mdl-layout__drawer mdl-color--green-500'
         React.DOM.span

@@ -18,9 +18,11 @@ class @Home extends React.Component
         className:'mdl-cell mdl-cell--4-col'
         React.DOM.div
           React.DOM.button
-            className:'mdl-button mdl-js-button mdl-button--raised'
+            className:'mdl-chip mdl-color--green-400'
             onClick: @handleRedirect
-            'Button that redirects to routes'
+            React.DOM.span
+              className:'mdl-chip__text'
+              'Button that redirects to routes'
           React.DOM.a
             className:'mdl-button mdl-js-button mdl-button--raised mdl-button--colored'
             href:'https://www.google.com'
