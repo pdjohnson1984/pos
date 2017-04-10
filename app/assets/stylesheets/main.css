@@ -1,0 +1,4 @@
+/*Changes color of the 'hamburger' to green*/
+.mdl-layout__header .mdl-layout__drawer-button i {
+  color: green;
+}

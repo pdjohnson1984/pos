@@ -1,0 +1,33 @@
+/*Displays text boxs in divs as stacked instead of inline */
+.mdl-grid .mdl-cell--middle div{
+  display: block;
+}
+
+/*center card in the middle of layout grid cell. Added some padding to the top so the card doesn't sit at the top of the browser*/
+#login_card {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 3em;
+}
+
+/*Centers and and pads the contents inside of the login card*/
+#login_card_contents {
+	padding: 30px;
+	flex: none;
+}
+
+/*Sets top padding to login button to give some space between it and the password field*/
+#sign_in_button_div {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#sign_in_button {
+  width: 100%
+}
+
+#forgot_signin {
+  font-size: 12px;
+  color: green;
+}
