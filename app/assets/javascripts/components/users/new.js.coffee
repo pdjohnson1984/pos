@@ -5,7 +5,7 @@ class @Login extends React.Component
       React.DOM.div
         className:'mdl-layout-spacer'
       React.DOM.div
-        className:'mdl-cell--middle mdl-cell--4-col'
+        className:'mdl-cell--middle mdl-cell--3-col'
         React.DOM.form
           action:'Post'
           React.DOM.div
@@ -15,7 +15,7 @@ class @Login extends React.Component
               type:'text'
               id:'username'
             React.DOM.label
-              className:'mdl-textfield__label'
+              className:'mdl-textfield__label mdl-color-text--green-400'
               for:'username'
               'User'
           React.DOM.div
@@ -25,7 +25,7 @@ class @Login extends React.Component
               type:'text'
               id:'password'
             React.DOM.label
-              className:'mdl-textfield__label'
+              className:'mdl-textfield__label mdl-color-text--green-400'
               for:'password'
               'Password'
       React.DOM.div

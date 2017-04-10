@@ -1,0 +1,18 @@
+.mdl-layout__header .mdl-layout__drawer-button i {
+  color: green;
+}
+
+.mdl-grid .mdl-cell--middle div{
+  display: block;
+}
+
+
+/*.mdl-grid .mdl-cell--middle .mdl-textfield__input{
+    border-bottom: 1px solid #fff;
+    color: red;
+}*/
+
+/*
+#inline-div {
+  display: block;
+}*/
