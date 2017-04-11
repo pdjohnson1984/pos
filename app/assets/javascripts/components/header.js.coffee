@@ -16,7 +16,7 @@ class @Header extends React.Component
         React.DOM.div
           className:'mdl-layout__header-row'
           React.DOM.span
-            className:'mdl-layout-title mdl-color-text--green'
+            className:'mdl-layout-title mdl-color-text--green '
             'CannaUnify'
           # React.DOM.nav
           #   className:'mdl-navigation mdl-layout--large-screen-only'
@@ -33,7 +33,7 @@ class @Header extends React.Component
           #     href:'#contact'
           #     'Contact'
           React.DOM.div
-            className:'mdl-layout-spacer'
+            className:'mdl-layout-spacer '
           React.DOM.button
             className:'mdl-chip mdl-color--green-400'
             onClick: @handleLogin
@@ -48,11 +48,11 @@ class @Header extends React.Component
             href:'#about'
             'About'
           React.DOM.a
-            className:'mdl-layout__tab mdl-color-text--white '
+            className:'mdl-layout__tab mdl-color-text--white'
             href:'#products'
             'Products'
           React.DOM.a
-            className:'mdl-layout__tab mdl-color-text--white '
+            className:'mdl-layout__tab mdl-color-text--white'
             href:'#contact'
             'Contact'
       React.DOM.div

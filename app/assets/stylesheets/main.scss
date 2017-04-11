@@ -2,13 +2,17 @@
 .mdl-layout__header .mdl-layout__drawer-button i {
   color: green;
 }
-
-.mdl-layout .mdl-layout__header .mdl-layout__header-row .mdl-navigation {
-  padding-left: 3em;
-}
+//
+// .mdl-layout .mdl-layout__header .mdl-layout__header-row .mdl-navigation {
+//   padding-left: 3em;
+// }
 
 .page-content {
-  padding-bottom: 10em;
+  padding-top: 1em;
+}
+
+.mdl-layout__tab-bar{
+  justify-content: center;
 }
 
 /*.mdl-layout .mdl-layout__header .mdl-layout__header-row {
