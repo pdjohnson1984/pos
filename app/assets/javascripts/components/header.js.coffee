@@ -15,6 +15,8 @@ class @Header extends React.Component
         className:'mdl-layout__header mdl-color--white'
         React.DOM.div
           className:'mdl-layout__header-row'
+          React.DOM.div
+            className:'mdl-layout-spacer mdl-layout--large-screen-only'
           React.DOM.span
             className:'mdl-layout-title mdl-color-text--green '
             'CannaUnify'
@@ -41,6 +43,8 @@ class @Header extends React.Component
             React.DOM.span
               className:'mdl-chip__text mdl-color-text--white'
               'Sign In'
+          React.DOM.div
+            className:'mdl-layout-spacer mdl-layout--large-screen-only'
         React.DOM.div
           className:'mdl-layout__tab-bar mdl-js-ripple-effect'
           React.DOM.a

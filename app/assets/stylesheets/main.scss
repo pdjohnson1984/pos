@@ -15,6 +15,11 @@
   justify-content: center;
 }
 
+// Widens the gap between the log and sign in button
+.mdl-layout-title {
+  width: 30em;
+}
+
 /*.mdl-layout .mdl-layout__header .mdl-layout__header-row {
   max-width: 61.25rem;
   margin: 0 auto;
