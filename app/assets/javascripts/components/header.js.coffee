@@ -22,15 +22,15 @@ class @Header extends React.Component
             className:'mdl-navigation mdl-layout--large-screen-only'
             React.DOM.a
               className:'mdl-navigation__link mdl-color-text--green-400'
-              href:''
+              href:'#about'
               'About'
             React.DOM.a
               className:'mdl-navigation__link mdl-color-text--green-400'
-              href:''
+              href:'#products'
               'Products'
             React.DOM.a
               className:'mdl-navigation__link mdl-color-text--green-400'
-              href:''
+              href:'#contact'
               'Contact'
           React.DOM.div
             className:'mdl-layout-spacer'
