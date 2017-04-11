@@ -18,20 +18,20 @@ class @Header extends React.Component
           React.DOM.span
             className:'mdl-layout-title mdl-color-text--green'
             'CannaUnify'
-          React.DOM.nav
-            className:'mdl-navigation mdl-layout--large-screen-only'
-            React.DOM.a
-              className:'mdl-navigation__link mdl-color-text--green-400'
-              href:'#about'
-              'About'
-            React.DOM.a
-              className:'mdl-navigation__link mdl-color-text--green-400'
-              href:'#products'
-              'Products'
-            React.DOM.a
-              className:'mdl-navigation__link mdl-color-text--green-400'
-              href:'#contact'
-              'Contact'
+          # React.DOM.nav
+          #   className:'mdl-navigation mdl-layout--large-screen-only'
+          #   React.DOM.a
+          #     className:'mdl-navigation__link is-active mdl-color-text--green-400'
+          #     href:'#about'
+          #     'About'
+          #   React.DOM.a
+          #     className:'mdl-navigation__link mdl-color-text--green-400'
+          #     href:'#products'
+          #     'Products'
+          #   React.DOM.a
+          #     className:'mdl-navigation__link mdl-color-text--green-400'
+          #     href:'#contact'
+          #     'Contact'
           React.DOM.div
             className:'mdl-layout-spacer'
           React.DOM.button
@@ -41,6 +41,20 @@ class @Header extends React.Component
             React.DOM.span
               className:'mdl-chip__text mdl-color-text--white'
               'Sign In'
+        React.DOM.div
+          className:'mdl-layout__tab-bar mdl-js-ripple-effect'
+          React.DOM.a
+            className:'mdl-layout__tab mdl-color-text--white is-active'
+            href:'#about'
+            'About'
+          React.DOM.a
+            className:'mdl-layout__tab mdl-color-text--white '
+            href:'#products'
+            'Products'
+          React.DOM.a
+            className:'mdl-layout__tab mdl-color-text--white '
+            href:'#contact'
+            'Contact'
       React.DOM.div
         className:'mdl-layout__drawer mdl-color--green-500 mdl-layout--small-screen-only'
         React.DOM.span
