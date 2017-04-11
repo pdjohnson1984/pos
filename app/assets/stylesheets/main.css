@@ -2,3 +2,12 @@
 .mdl-layout__header .mdl-layout__drawer-button i {
   color: green;
 }
+
+.mdl-layout .mdl-layout__header .mdl-layout__header-row .mdl-navigation {
+  padding-left: 3em;
+}
+
+/*.mdl-layout .mdl-layout__header .mdl-layout__header-row {
+  max-width: 61.25rem;
+  margin: 0 auto;
+}*/

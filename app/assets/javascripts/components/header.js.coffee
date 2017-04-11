@@ -18,19 +18,31 @@ class @Header extends React.Component
           React.DOM.span
             className:'mdl-layout-title mdl-color-text--green'
             'CannaUnify'
-          React.DOM.div
-            className:'mdl-layout-spacer'
           React.DOM.nav
             className:'mdl-navigation mdl-layout--large-screen-only'
-            React.DOM.button
-              className:'mdl-chip mdl-color--green-400'
-              onClick: @handleLogin
-              # href: '' #Set a blank href so cursor changes when hovering
-              React.DOM.span
-                className:'mdl-chip__text mdl-color-text--white'
-                'Sign In'
+            React.DOM.a
+              className:'mdl-navigation__link mdl-color-text--green-400'
+              href:''
+              'About'
+            React.DOM.a
+              className:'mdl-navigation__link mdl-color-text--green-400'
+              href:''
+              'Products'
+            React.DOM.a
+              className:'mdl-navigation__link mdl-color-text--green-400'
+              href:''
+              'Contact'
+          React.DOM.div
+            className:'mdl-layout-spacer'
+          React.DOM.button
+            className:'mdl-chip mdl-color--green-400'
+            onClick: @handleLogin
+            # href: '' #Set a blank href so cursor changes when hovering
+            React.DOM.span
+              className:'mdl-chip__text mdl-color-text--white'
+              'Sign In'
       React.DOM.div
-        className:'mdl-layout__drawer mdl-color--green-500'
+        className:'mdl-layout__drawer mdl-color--green-500 mdl-layout--small-screen-only'
         React.DOM.span
           className:'mdl-layout-title mdl-color-text--white'
           'Title'
@@ -39,19 +51,15 @@ class @Header extends React.Component
           React.DOM.a
             className:'mdl-navigation__link mdl-color-text--white'
             href:''
-            'Link'
+            'About'
           React.DOM.a
             className:'mdl-navigation__link mdl-color-text--white'
             href:''
-            'Link'
+            'Products'
           React.DOM.a
             className:'mdl-navigation__link mdl-color-text--white'
             href:''
-            'Link'
-          React.DOM.a
-            className:'mdl-navigation__link mdl-color-text--white'
-            href:''
-            'Link'
+            'Contact'
       React.DOM.main
         className:'mdl-layout__content'
         React.DOM.div

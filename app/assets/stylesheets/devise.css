@@ -3,6 +3,14 @@
   display: block;
 }
 
+/*Centers the grid in the screen*/
+/*.mdl-grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
 /*center card in the middle of layout grid cell. Added some padding to the top so the card doesn't sit at the top of the browser*/
 #login_card {
   align-items: center;
